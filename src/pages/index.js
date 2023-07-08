@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Main from "@/components/Main";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -148,9 +150,9 @@ export const getStaticProps = () => {
 export default function Home({ tabs, tabsKeys }) {
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>Яндекс.Дом</title>
-      </Head> */}
+      </Head>
       <Header />
       <Main tabs={tabs} tabsKeys={tabsKeys} />
       <Footer />
