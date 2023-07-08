@@ -155,7 +155,6 @@ export default function Home({ tabs, tabsKeys }) {
       </Head>
       <Header />
       <Main tabs={tabs} tabsKeys={tabsKeys} />
-      <Footer />
     </>
   );
 }
